@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="770.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.IncluirAlunoContoller">
+   <children>
+      <Text layoutX="14.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cadastro de Aluno">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Text>
+      <Text layoutX="43.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Matricula">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Button id="salvarbtn" fx:id="btnSalvar" layoutX="651.0" layoutY="438.0" mnemonicParsing="false" onAction="#salvarAction" prefHeight="42.0" prefWidth="89.0" style="-fx-background-color: #92B558;" text="salvar" textFill="WHITE" />
+      <Button id="fecharbtn" fx:id="btnfechar" layoutX="553.0" layoutY="438.0" mnemonicParsing="false" onAction="#fecharAction" prefHeight="42.0" prefWidth="89.0" style="-fx-background-color: #BD3D3A;" text="Cancelar" textFill="WHITE" />
+      <Text layoutX="54.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Idade">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField id="tfRendimento" fx:id="tfIdade" layoutX="54.0" layoutY="212.0" prefHeight="31.0" prefWidth="123.0" />
+      <Text layoutX="197.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Periodo vigente">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="529.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Indice. rendimento">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField id="tfRendimento" fx:id="tfRendimento" layoutX="527.0" layoutY="106.0" prefHeight="31.0" prefWidth="168.0" />
+      <Text layoutX="204.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Altura">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField id="tfRendimento" fx:id="tfAltura" layoutX="202.0" layoutY="210.0" prefHeight="31.0" prefWidth="123.0" />
+      <Text layoutX="374.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Faz Estágio?" wrappingWidth="123.00000786781311">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField id="tfRendimento" fx:id="tfBoleano" layoutX="374.0" layoutY="106.0" prefHeight="31.0" prefWidth="123.0" promptText="Sim ou Não" />
+      <Text layoutX="41.0" layoutY="171.0" stroke="#141414" strokeType="OUTSIDE" strokeWidth="0.0" text=" Informações Pessoais">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="54.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Média de livros lido por ano">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField id="tfRendimento" fx:id="tflivros" layoutX="54.0" layoutY="390.0" prefHeight="31.0" prefWidth="353.0" />
+      <Text layoutX="54.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cidade" wrappingWidth="57.1328125">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField id="tfRendimento" fx:id="tfcidade" layoutX="54.0" layoutY="273.0" prefHeight="31.0" prefWidth="353.0" />
+      <Text layoutX="54.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Linguagem de programação preferida" wrappingWidth="281.1328125">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField id="tfRendimento" fx:id="tfLinguaPrograma" layoutX="54.0" layoutY="335.0" prefHeight="31.0" prefWidth="353.0" />
+      <Text layoutX="421.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Serie Favorita" wrappingWidth="281.1328125">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField id="tfRendimento" fx:id="tfSerie" layoutX="421.0" layoutY="273.0" prefHeight="31.0" prefWidth="319.0" />
+      <Text layoutX="421.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time de Futebol" wrappingWidth="281.1328125">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField id="tfRendimento" fx:id="tfTime" layoutX="421.0" layoutY="335.0" prefHeight="31.0" prefWidth="319.0" />
+      <Text layoutX="421.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Android ou IOS?" wrappingWidth="281.1328125">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField id="tfRendimento" fx:id="tfAndroidIOS" layoutX="421.0" layoutY="389.0" prefHeight="31.0" prefWidth="319.0" />
+      <TextField id="tfRendimento" fx:id="tfPeriodoVigente" layoutX="191.0" layoutY="106.0" prefHeight="31.0" prefWidth="168.0" />
+      <Text fill="RED" layoutX="662.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField id="tfRendimento" fx:id="tfMatricula" layoutX="41.0" layoutY="106.0" prefHeight="31.0" prefWidth="123.0" />
+      <Text fill="RED" layoutX="112.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
